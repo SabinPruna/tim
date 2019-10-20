@@ -3,24 +3,13 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item>
-          <small>&copy; Copyright {{ year }} Johannes Werner</small>
+          <small>Sven, Sabin, Andra, Razvan</small>
         </vue-grid-item>
 
         <vue-grid-item>
-          <a href="https://github.com/devCrossNet" target="_blank" rel="noopener" aria-label="github profile">
+          <a href="https://github.com/SabinPruna/tim" target="_blank" rel="noopener" aria-label="github profile">
             <vue-icon-github-alt />
           </a>
-          <a href="https://twitter.com/vuesion1" target="_blank" rel="noopener" aria-label="twitter profile">
-            <vue-icon-twitter-square />
-          </a>
-        </vue-grid-item>
-
-        <vue-grid-item>
-          <small>
-            <a href="https://github.com/vuesion/vuesion/blob/master/LICENSE" target="_blank" rel="noopener">
-              MIT License
-            </a>
-          </small>
         </vue-grid-item>
       </vue-grid-row>
     </vue-grid>

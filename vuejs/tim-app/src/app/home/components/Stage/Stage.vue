@@ -6,26 +6,18 @@
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <img src="logo.png" alt="vuesion" />
-          <vue-headline level="1">vuesion</vue-headline>
+          <vue-headline level="1">OurApp</vue-headline>
           <div :class="$style.subTitle">
-            {{
-              $t(
-                'App.core.description' /* The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices */,
-              )
-            }}
+            Our app description.
+            <!-- {{
+              
+               $t(
+                'App.core.description'
+              ) 
+            }}-->
+            <!-- We don't need internationalisation for now-->
           </div>
-
           <br />
-
-          <a
-            :class="$style.github"
-            href="https://github.com/vuesion/vuesion"
-            target="_blank"
-            rel="noopener"
-            aria-label="vuesion github repository"
-          >
-            <vue-icon-github />
-          </a>
         </vue-grid-item>
       </vue-grid-row>
     </vue-grid>
@@ -122,24 +114,6 @@ export default {
 
   @include mediaMin(tabletPortrait) {
     min-height: 50vh;
-  }
-}
-
-.github {
-  font-size: $font-size-h1;
-  display: inline-block;
-  background: $brand-bg-color;
-  transition: $button-transition;
-  transition-property: box-shadow, background-color;
-  color: $brand-link-color;
-
-  &:hover {
-    box-shadow: $button-active-shadow;
-  }
-
-  i {
-    height: $font-size-h1;
-    width: $font-size-h1;
   }
 }
 </style>

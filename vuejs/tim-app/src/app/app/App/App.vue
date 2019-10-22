@@ -21,6 +21,9 @@
         <vue-sidebar-group-item to="/">
           <vue-icon-code />Home
         </vue-sidebar-group-item>
+        <vue-sidebar-group-item :to="{ name: 'gamepage' }">
+          <vue-icon-code />Tic Tac Toe
+        </vue-sidebar-group-item>
       </vue-sidebar-group>
     </vue-sidebar>
 
@@ -51,6 +54,9 @@ import VueIconPuzzlePiece from '@components/icons/VueIconPuzzlePiece/VueIconPuzz
 import VueButton from '@components/VueButton/VueButton.vue';
 import VueModal from '@components/VueModal/VueModal.vue';
 import LoginForm from '@shared/modules/auth/LoginForm/LoginForm.vue';
+import GamePage from '../components/tictactoe/GamePage'
+import Board from '../components/tictactoe/Board'
+import Cell from '../components/tictactoe/Cell'
 
 export default {
   name: 'App',
@@ -75,6 +81,9 @@ export default {
     VueGridItem,
     VueFooter,
     VueNotificationStack,
+    Board,
+    Cell,
+    GamePage
   },
   data(): any {
     return {

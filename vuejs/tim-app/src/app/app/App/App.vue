@@ -24,6 +24,9 @@
         <vue-sidebar-group-item :to="{ name: 'gamepage' }">
           <vue-icon-code />Tic Tac Toe
         </vue-sidebar-group-item>
+        <vue-sidebar-group-item :to="{ name: 'memorypage' }">
+          <vue-icon-code />Memory
+        </vue-sidebar-group-item>
       </vue-sidebar-group>
     </vue-sidebar>
 
@@ -57,6 +60,9 @@ import LoginForm from '@shared/modules/auth/LoginForm/LoginForm.vue';
 import GamePage from '../components/tictactoe/GamePage'
 import Board from '../components/tictactoe/Board'
 import Cell from '../components/tictactoe/Cell'
+import Memory from '../components/memory/MemoryPage';
+import Cards from '../components/memory/Card';
+import MBoard from '../components/memory/ScoreBoard';
 
 export default {
   name: 'App',
@@ -83,7 +89,10 @@ export default {
     VueNotificationStack,
     Board,
     Cell,
-    GamePage
+    GamePage,
+    Memory,
+    Cards,
+    MBoard
   },
   data(): any {
     return {

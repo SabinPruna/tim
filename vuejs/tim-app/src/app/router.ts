@@ -7,6 +7,7 @@ import { CounterRoutes } from './example/counter/routes';
 import { FormRoutes } from './example/form/routes';
 import { DashboardRoutes } from './example/dashboard/routes';
 import { GamePageRoutes } from './app/components/tictactoe/routes';
+import { MemoryRoutes } from './app/components/memory/routes';
 import { store } from '@/app/store';
 
 Vue.use(VueRouter);
@@ -15,7 +16,7 @@ Vue.use(Meta);
 export const router: VueRouter = new VueRouter({
   mode: 'history',
   base: __dirname,
-  routes: [...AppRoutes, ...HomeRoutes, ...CounterRoutes, ...FormRoutes, ...DashboardRoutes, ...GamePageRoutes],
+  routes: [...AppRoutes, ...HomeRoutes, ...CounterRoutes, ...FormRoutes, ...DashboardRoutes, ...GamePageRoutes, ...MemoryRoutes],
   scrollBehavior(to: Route, from: Route, savedPosition: { x: number; y: number }) {
     if (to.hash) {
       return { selector: to.hash };

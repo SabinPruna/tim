@@ -44,7 +44,7 @@ shapes.forEach(item => {
         matchKey: item,
         flipped: false,
         id: `${item}-a`,
-        imgUrl: `${item}.png`,
+        imgUrl: require(`./images/${item}.png`),
         matched: false,
     };
 

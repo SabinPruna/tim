@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Steps
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Steps\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Steps()
+comment2.params=num
+comment2.target=Steps(int)
+comment3.params=
+comment3.target=void\ updateImage()
+numComments=4

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Walkers
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Walkers\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=dir
+comment2.target=void\ moveOne(int)
+comment3.params=
+comment3.target=void\ checkKeys()
+comment4.params=
+comment4.target=boolean\ collideZombie()
+comment5.params=
+comment5.target=Grid\ getGrid()
+comment6.params=first\ second
+comment6.target=void\ animateActor(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment7.params=
+comment7.target=boolean\ getTurn()
+comment8.params=
+comment8.target=void\ endTurn()
+comment9.params=
+comment9.target=int\ getSteps()
+numComments=10

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Zombie
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Zombie\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Zombie()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=target
+comment3.target=void\ directionVectors(greenfoot.Actor)
+comment3.text=\r\n\ Gets\ the\ distance\ between\ Zombie\ and\ Hero\r\n
+comment4.params=
+comment4.target=void\ simplifyDirection()
+comment4.text=\r\n\ Takes\ the\ distance\ between\ Zombie\ and\ Hero\ \r\n\ and\ turns\ it\ into\ a\ North(1),NorthEast(2),East(3),SouthEast(4),South(5),\r\n\ SouthWest(6),West(7),NorthWest(8)\ value\r\n
+comment5.params=crashed
+comment5.target=void\ killZombie(boolean)
+comment6.params=
+comment6.target=void\ smellHero()
+numComments=7
